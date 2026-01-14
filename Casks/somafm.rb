@@ -3,7 +3,7 @@ cask "somafm" do
   name "somafm"
   desc "Terminal-based music player for SomaFM radio stations"
   homepage "https://github.com/glebovdev/somafm-cli"
-  version "0.1.3"
+  version "0.1.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "somafm" do
     on_intel do
       url "https://github.com/glebovdev/somafm-cli/releases/download/v#{version}/somafm_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/glebovdev/somafm-cli"
-      sha256 "7763e200653656bed81a06df737ed8ff379372a74513634408f70fb9413aa1ce"
+      sha256 "608cb23491e362c7ef843e20ad9df187fd62316a4e21858a35c64b08e0c37d05"
     end
     on_arm do
       url "https://github.com/glebovdev/somafm-cli/releases/download/v#{version}/somafm_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/glebovdev/somafm-cli"
-      sha256 "b7966def4b9216df379a1e6012bf58e8dc32c30a4a2e316508aea536c6f6a410"
+      sha256 "317e2949c333b821950187ddd7138cd41ca84bfe1f770bb0c2d5998db9935382"
     end
   end
 
