@@ -3,7 +3,7 @@ cask "somafm" do
   name "somafm"
   desc "Terminal-based music player for SomaFM radio stations"
   homepage "https://github.com/glebovdev/somafm-cli"
-  version "0.2.2"
+  version "0.2.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "somafm" do
     on_intel do
       url "https://github.com/glebovdev/somafm-cli/releases/download/v#{version}/somafm_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/glebovdev/somafm-cli"
-      sha256 "3bbafb475d3b3dbb8c66a49cb9cbff06f9bd53bfabd51d49c30d411aca080def"
+      sha256 "3a497d710aca4dea8b872a4ba1184b5d950da63abd138c1f4812782bbd8d6e57"
     end
     on_arm do
       url "https://github.com/glebovdev/somafm-cli/releases/download/v#{version}/somafm_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/glebovdev/somafm-cli"
-      sha256 "8b2338b87e6ee0d3e62fdf39483f74d72de6f9c91c9b94294e327a452703bb6d"
+      sha256 "3ad26fa08f1ee4dcfff671ad9b7435a33619254d2f439287b7690366555620fa"
     end
   end
 
@@ -28,12 +28,12 @@ cask "somafm" do
     on_intel do
       url "https://github.com/glebovdev/somafm-cli/releases/download/v#{version}/somafm_#{version}_linux_amd64.tar.gz",
         verified: "github.com/glebovdev/somafm-cli"
-      sha256 "007f5abbd3e6b4e36f67eb07f684ed7d40b79344f03f05d218c3c9365fc9543c"
+      sha256 "ecf81533651709e78c317a7b6c528c89d7c5f9e594849e294fc8196dd4f3099f"
     end
     on_arm do
       url "https://github.com/glebovdev/somafm-cli/releases/download/v#{version}/somafm_#{version}_linux_arm64.tar.gz",
         verified: "github.com/glebovdev/somafm-cli"
-      sha256 "a79ae94479f1a619762542a615ba3b33e75674af138bb0bff8e9e6eccc93e507"
+      sha256 "82f929a39ee6dfe846448b0feaa910165b0eab1e8838c7b9630c4a12e4764e14"
     end
   end
 
